@@ -1,3 +1,49 @@
+# Klausuraufgaben
+Gedächtnisprotokoll: Klausur Analyse von NGS Daten mit Python
+Prüfer: Ossowski
+SoSe 2022
+
+Zeit: 90 Minuten (war sehr knapp!)
+Anzahl Aufgaben: 7 mit jeweils 2-4 Teilaufgaben
+Hilfsmittel: keine
+
+Allgemeines:
+Es wurde thematisch eigentlich alles abgefragt.
+Man musste Pseudocode schreiben, Methoden und Tools erklären und Python packages nennen können.
+Alle bis auf zwei Teilaufgaben gaben entweder zwei oder drei Punkte.
+
+Aufgabe 1 (NGS Daten)
+1. drei Anwendungen von NGS Daten nennen und beschreiben
+2. 5 Schritte der bioinformatischen NGS Pipeline zur Annotation von Varianten beschreiben
+3. 5 Tools nennen und beschreiben, die in der Vorlesung behandelt wurden.
+4. Dateiformate Fasta, VCF, BAM, pileup, GFF beschreiben (Nutzen, Format, Inhalt)
+
+Aufgabe 2 (Alignment und Varianten)
+1. Erklärung mit welcher Methode werden kurze DNA Sequenzen an das Referenzgenom gemapped?
+2. Erklärung synonymous Varianten und nonsynonymous Varianten (1 Punkt)
+3. Erklärung von frameshift Varianten (1 Punkt)
+
+Aufgabe 3 (Variant Annotation)
+1. Nutzen von Annotation von Varianten, welche Parameter zum Priorisieren von Varianten wichtig sind und welches Tool dafür genutzt werden kann
+2. Man sollte erklären und Pseudocode schreiben wie man aus einer BAM-Datei Varianten erkennen kann (+ welches python package)
+3. 4 Methoden mit denen man SNVs erkennen kann nennen und kurz beschreiben
+4. 5 Typen von Genomvarianten nennen und kurz beschreiben
+
+Aufgabe 4 (Structural Variants durch Paired End Mates und Clipped reads)
+1. Delly: welche 4 Varianten kann Delly erkennen (+ kurze Beschreibung)
+2. Wie sehen die Paired End Mates in 3 dieser Varianten aus? (Durfte man auch zeichnen)
+3. Beschreibung wie man Deletions erkennt + Pseudocode
+
+Aufgabe 5 (Copy Number Variants)
+1. Wie erkennt man Varianten durch CNVs (+ Pseudocode)
+2. Wie sieht der z-Score zur Normalisierung aus (Formel) + erklären was er macht
+
+Aufgabe 6 (Assembly)
+1. Pseudocode für OLC angeben
+2. Man sollte de Bruijn Graphen und den Eulerian Path kurz beschreiben und aus einer Sequenz einen de Bruijn Graph mit k=4 erstellen.
+3. Man sollte aus verschiedenen Graphen mit Repeats (aus der VL) alle möglichen eulerschen Pfade angeben.
+
+
 # Zusammenfassung der NGS-Analyse-Vorlesung und Klausurvorbereitung
 
 ## Grundlagen der NGS-Analyse
